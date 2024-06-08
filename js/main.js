@@ -80,3 +80,67 @@
 // } else {
 //     alert("ERROR");
 // }
+
+// Solicitar al usuario un (1) número.
+// Si el valor está entre 1 y 4, efectuar una de las siguientes salidas según corresponda: 
+
+// let numero = parseInt(prompt('Ingrese un numero:'));
+
+// if (numero == 1){
+//     alert('Elegiste a Homero');
+// }
+// if (numero == 2){
+//     alert('Elegiste a Marge');
+// }
+// if (numero == 3){
+//     alert('Elegiste a Bart');
+// }
+// if (numero == 4){
+//     alert('Elegiste a Lisa');
+// }
+
+// Solicitar al usuario un (1) número.
+// Si el valor está entre dos números, efectuar una de las siguientes salidas, según corresponda: 
+// “Presupuesto bajo” si está entre 0 y 1000.
+// “Presupuesto medio” si está entre 1001 y 3000.
+// “Presupuesto alto” si es  mayor que 3000.
+
+// let numero = parseInt(prompt('Ingrese un numero:'))
+
+// if ((numero >= 0) && (numero <= 1000 )) {
+//     alert('Presupuesto bajo')
+// } else if ((numero >= 1001) && (numero <= 3000 )) {
+//     alert('Presupuesto medio')
+// } else if (numero >= 3001){
+//     alert('Presupuesto alto')
+// } else {
+//     alert('Error')
+// }
+
+// Solicitar al usuario cuatro (4) productos de almacén. 
+// Si todos los elementos fueron cargados, realizar una única salida compuesta por el listado de productos. 
+// Caso contrario, la salida será “Error: Es necesario cargar todos los productos”.
+
+// let producto1 = prompt('¿Que desea comprar?');
+// let producto2 = prompt('¿Que desea comprar?');
+// let producto3 = prompt('¿Que desea comprar?');
+// let producto4 = prompt('¿Que desea comprar?');
+
+// if ((producto1 != '') && (producto2 != '') && (producto3 != '') && (producto4 != '')) {
+//     let productos = '1) '+producto1+' 2) '+producto2+' 3) '+producto3+' 4) '+producto4;
+//     alert(productos);
+// } else {
+//     alert('Debe elegir cuatro productos.');
+// }
+
+// Solicitar al usuario un (1) un número y un (1) texto. 
+// Efectuar una salida por alerta con el mensaje ingresado por cada repetición, 
+// hasta alcanzar el valor señalado por el usuario.
+
+// let numero = parseInt(prompt('Ingrese un numero de repeticiones:'));
+// let texto = prompt('Ingrese un texto para repetir:');
+
+// for (let i = 0; i < numero; i++) {
+//     alert(texto);
+    
+// }
